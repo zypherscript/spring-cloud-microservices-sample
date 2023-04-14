@@ -204,8 +204,3 @@ nbdist/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,vscode,eclipse,netbeans,intellij+all
-
-# dockers
-docker/storedata
-# modules
-

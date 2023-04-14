@@ -33,7 +33,7 @@ public class DownstreamApplication {
 
   @GetMapping(value = "/info/{username}", produces = MediaType.TEXT_PLAIN_VALUE)
   public String getInfo(@PathVariable("username") String username) {
-    var from = eurekaClient.getApplication(appName).getName();
+    var from = eurekaClient.getApplication(appName).getName(); //proof with ProblemDetail
     return "%s :: Hi %s, your pwd is %s".formatted(from, username, password);
   }
 

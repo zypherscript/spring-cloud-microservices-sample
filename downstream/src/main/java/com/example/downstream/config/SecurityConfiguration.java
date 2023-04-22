@@ -13,7 +13,7 @@ public class SecurityConfiguration {
     http
         .csrf().disable()
         .authorizeHttpRequests()
-//        .requestMatchers("/actuator/health", "/actuator/prometheus")
+//        .requestMatchers("/actuator/health")
 //        .permitAll()
         .anyRequest().authenticated()
         .and()

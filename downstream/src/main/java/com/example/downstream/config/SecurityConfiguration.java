@@ -13,8 +13,8 @@ public class SecurityConfiguration {
     http
         .csrf().disable()
         .authorizeHttpRequests()
-        .requestMatchers("/actuator/health", "/actuator/prometheus")
-        .permitAll()
+//        .requestMatchers("/actuator/health", "/actuator/prometheus")
+//        .permitAll()
         .anyRequest().authenticated()
         .and()
         .formLogin()

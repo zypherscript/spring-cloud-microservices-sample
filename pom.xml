@@ -38,6 +38,9 @@
 
   <modules>
     <module>configserver</module>
+    <module>downstream</module>
+    <module>eurekaserver</module>
+    <module>gateway</module>
   </modules>
 
   <build>
